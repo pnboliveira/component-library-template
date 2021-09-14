@@ -1,3 +1,62 @@
 :host {
   display: block;
 }
+
+.container {
+  padding: 0 10%;
+}
+
+.headline {
+  border-left: 4px solid red;
+  padding-left: 10px;
+  font-size: 36px;
+}
+
+.content {
+  width: 100%;
+  background: var(--gray);
+
+  .mainText {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 8%;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .btn {
+    background: var(--contact-blue);
+    border-style: none;
+    padding: 2% 5%;
+    color: var(--white);
+    cursor: pointer;
+  }
+}
+
+.dropdown {
+  background: var(--contact-blue);
+  color: var(--white);
+  font-family: $font-family-sans-serif;
+  float: left;
+  width: 100%;
+  padding: 3% 0;
+
+  h1 {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 36px;
+  }
+}

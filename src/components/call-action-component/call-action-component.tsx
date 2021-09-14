@@ -25,17 +25,18 @@ export class CallActionComponent {
           <h1 class="headline">CtA - Main Conversion</h1>
         </div>
         <div class="content">
-          <div class="mainText container">
-            <h2>A wonderful serenity has taken possession</h2>
-            <p>
-              A wonderful serenity has taken possession of my entire soul,
-              like these sweet mornings of spring which I enjoy with my whole heart.
-            </p>
-            <button class="btn" onClick={this.handleClick}>Contact Us</button>
-
+          <div class="mainText">
+            <div class="container">
+              <h2>A wonderful serenity has taken possession</h2><br /><br />
+              <p>
+                A wonderful serenity has taken possession of my entire soul,
+                like these sweet mornings of spring which I enjoy with my whole heart.
+              </p><br /><br />
+              <button class="btn" onClick={this.handleClick}>Contact Us</button>
+            </div>
           </div>
           <div class="sidebar">
-            <img src="https://www.stockvault.net/data/2016/03/23/189996/preview16.jpg" alt="" srcSet="" />
+            <img src="https://www.stockvault.net/data/2016/03/23/189996/preview16.jpg" alt="Man on a Mountain" />
           </div>
         </div>
 
