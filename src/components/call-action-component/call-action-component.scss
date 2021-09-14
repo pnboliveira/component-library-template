@@ -43,6 +43,9 @@
   float: left;
   width: 100%;
   padding: 3% 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-in-out 1s;
 
   h1 {
     font-size: 24px;
@@ -50,8 +53,9 @@
     margin: 0;
   }
 
-  .active {
-    display: block;
+  &.active {
+    visibility: visible;
+    opacity: 1;
   }
 
   .close-btn {

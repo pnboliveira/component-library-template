@@ -42,7 +42,6 @@ export class CallActionComponent {
 
         <div class={this.active ? 'dropdown active' : 'dropdown'}>
           <div class="container">
-
             <h1>Contact Us</h1>
             <div class="close-btn" onClick={this.handleClick}>&times;</div>
           </div>
