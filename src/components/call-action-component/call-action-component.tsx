@@ -9,8 +9,6 @@ import {
   shadow: true,
 })
 export class CallActionComponent {
-  @Prop() test: string;
-
   @Prop() active: boolean;
 
   private handleClick = () => {

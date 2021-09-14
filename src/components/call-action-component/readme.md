@@ -10,7 +10,6 @@
 | Property | Attribute | Description | Type      | Default     |
 | -------- | --------- | ----------- | --------- | ----------- |
 | `active` | `active`  |             | `boolean` | `undefined` |
-| `test`   | `test`    |             | `string`  | `undefined` |
 
 
 ----------------------------------------------

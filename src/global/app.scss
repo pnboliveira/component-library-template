@@ -40,7 +40,8 @@ $container-bg: #ecede9;
 }
 
 body {
-  width: 100%;
+  margin: 0;
+  width: auto;
 }
 
 @include vendor-normalize-css;
